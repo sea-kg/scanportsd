@@ -7,15 +7,6 @@ Test compile was in Ubuntu 14.04
 
 	$ qmake && make
 
-# init database
-
-	$ ./scanportsd --createdb
-	$ ./scanportsd --updatedb
-
-# example config
-
-	$ ./scanportsd --example-config
-
 # command line
 
 	--help - this help
@@ -23,6 +14,19 @@ Test compile was in Ubuntu 14.04
 	--updatedb - will be update your database
 	--example-config - print example
 	--run - run scaning
+
+# init database
+
+	$ ./scanportsd --createdb
+	$ ./scanportsd --updatedb
+
+if you has database already then just update:
+ 
+ 	$ ./scanportsd --updatedb
+
+# example config
+
+	$ ./scanportsd --example-config
 
 # run
 
